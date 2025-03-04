@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#demo {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(101, 32, 32);
+  border-radius: 5px;
+  margin: 15px auto;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
