@@ -12,11 +12,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-
-.container{
-    /* padding: 50px; */
-    /* margin-bottom: 70px; */
-}
 button{
     all: unset;
     border: 1px solid gray;
