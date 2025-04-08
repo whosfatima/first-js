@@ -1,71 +1,63 @@
-// const cars = ['bmw', 'gffg', 'tgf'];
-// cars [3] = '434'
-// console.log(typeof cars);
+// let number= [12, 44, 2,55, 3, 54, 100, 7]
+// let max =0;
+// let min= 0;
+// let even=0;
 
-// let number = [1, 2, 3, 5];
-// let sum = 0;
-
-// for (let i = 0; i < number.length; i++) {
-//  sum += number[i];
+// for(let i=0; i< number.length; i++){
+//     if(number[i] > max){
+//         max = number[i]
+//     }
 // }
+// console.log(max);
+// min = max;
 
-// let average = sum / number.length;
-// console.log(average);
-
-// let number = [1, 5, 7, 9, 2];
-// let average = 0;
-// let sum = 0;
-// let counter = 0;
-// for (let i = 0; i < number.length; i++) {
-//   sum += number[i];
+// for(let i =0; i< number.length; i++){
+//     if(number[i] < min){
+//         min = number[i]
+//     }
 // }
-// average = sum / number.length;
+// console.log(min);
 
-// for (let i = 0; i < number.lengthl; i++) {
-//   if (number[i] > average) {
-//     counter++;
-//   }
+
+// for(let i = 0; i < number.length; i++){
+//     if(number[i] % 2 !=0) {
+//         even+=number[i]
+//     }
 // }
-// console.log(counter);
+// console.log(even);
 
-// let number = [1, 5, 7, 9, 2];
-// let average = 0;
-// let sum = 0;
-// let counter = 0;
 
-// for (let i = 0; i < number.length; i++) {
-//   sum += number[i];
+// let arr = [1, 2, 3];
+// arr.push(4); // [1, 2, 3, 4]
+// arr.forEach(num => console.log(num)); // 1, 2, 3, 4
+// arr.pop(); // [1, 2, 3]
+
+// let foods = ["Pizza", "Kebab"];
+// foods.push("Burger");
+// foods.forEach(food => console.log("I like " + food));
+// console.log('i like to eat' + foods);
+
+
+// function (food) {
+//     console.log("I like " + food);
 // }
+// food => console.log("I like " + food)
 
-// average = sum / number.length;
-
-// for (let i = 0; i < number.length; i++) {
-//   if (number[i] > average) {
-//     counter++;
-//   }
+// function bio() {
+    // let srt= 'helo world'
+//     console.log('hello world');
+    
 // }
+// bio();
+// console.log(bio);
 
-// console.log(counter);
+let funk= function(){
+    return 'hello';
+}
+// funk()
+console.log(funk());
 
-// let number = [5, 4, 7, 2, 9];
-// let sum = 0;
-// let counter = 0;
-
-// for (let i = 0; i < number.length; i++) {
-//   sum += number[i];
-// }
-// let average = sum / number.length;
-
-// for (let i = 0; i < number.length; i++) {
-//   if (number[i] > average) {
-//  counter++;
-//   }
-// }
-// console.log(counter);
-let number = ['wefefdf', 34323, 12/32]
-// let a = number.delet()
-// delete number[2]
-number.sort()
-// console.log(number.join(' - '));
-console.log(number);
-
+function number(){
+    console.log('hello world');
+    
+} number()
