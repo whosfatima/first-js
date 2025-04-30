@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lalezar, sans-serif;
+}
+
+fieldset {
+  padding: 20px 30px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  text-align: center;
+}
+legend {
+  font-size: 18px;
+  padding: 0px 12px;
+}
+input, button {
+  all: unset;
+  background-color: #fdf;
+  margin: 12px;
+  display: flex;
+  border-radius: 12px;
+  padding: 10px 20px;
+
+}
+
+button{
+    background-color: rgb(160, 146, 160);
+    color: #fff;
+    cursor: pointer;
+}
+.image{
+    width: 300px;
+    height: 300px;
+   
+}
+
+img{
+    width: 100%;
+}
