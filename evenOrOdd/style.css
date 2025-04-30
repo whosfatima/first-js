@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+fieldset{
+  padding: 10px 20px;
+  text-align: center;
+}
+legend{
+  padding: 0px 15px;
+}
+
+input{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  /* text-align: center; */
+
+  /* border: none; */
+  padding: 10px 10px;
+}
+
+button{
+  all: unset;
+/* margin: 0px auto;
+  text-align: center; */
+  cursor: pointer;
+}

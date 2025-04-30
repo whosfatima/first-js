@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>are you 18?</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+      }
+
+      fieldset {
+        padding: 40px 30px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        text-align: center;
+      }
+      legend {
+        padding: 0px 15px;
+      }
+      input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        padding: 10px 20px;
+        border: radius 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border: none;
+        box-shadow: rgba(212, 9, 9, 0.07) 0px 1px 2px,
+          rgba(216, 22, 22, 0.07) 0px 2px 4px,
+          rgba(214, 36, 36, 0.87) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+          rgba(218, 18, 18, 0.603) 0px 16px 32px,
+          rgba(0, 0, 0, 0.07) 0px 32px 64px;
+      }
+
+      button {
+        all: unset;
+        margin-top: 28px;
+        cursor: pointer;
+        text-shadow: 10px 5px 10px darkgray;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>how old are you kiddo?</legend>
+      <input type="number" placeholder="enter your age =>" id="age" />
+      <button id="button">enter web page ...</button>
+    </fieldset>
+
+    <script>
+      let button = document.getElementById("button");
+      let ageInput = document.getElementById("age");
+
+      button.onclick = function () {
+        if (ageInput.value >= 18) {
+          alert("welcome");
+        } else {
+          alert("you are too samll kiddo ...");
+        }
+      };
+    </script>
+  </body>
+</html>
