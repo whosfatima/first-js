@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:Lalezar, sans-serif;
+}
+fieldset{
+    padding: 10px 20px;
+    border: dotted 5px lightgray;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+display: flex;
+flex-direction: column;
+}
+legend{
+
+    padding:0px 10px 0px 18px;
+}
+input,
+button {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  rgba(197, 190, 190, 0.719) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: 10px 0px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 10px 12px;
+text-align: center;
+}
+button{
+    cursor: pointer;
+    transition: ease-in-out 0.3s all;
+    -webkit-transition: ease-in-out 0.3s all;
+    -moz-transition: ease-in-out 0.3s all;
+    -ms-transition: ease-in-out 0.3s all;
+    -o-transition: ease-in-out 0.3s all;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(150, 147, 147);
+    color: #fff;
+    margin-top: 10px;
+}
+p {
+  text-align: center;
+}
