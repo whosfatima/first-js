@@ -16,6 +16,6 @@ button.onclick = () => {
     }
   }
   if (total > 0) {
-    para.innerHTML = total;
+    para.innerHTML = 'the total is' + ' ' + total;
   }
 };
